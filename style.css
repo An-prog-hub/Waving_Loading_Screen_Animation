@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #58abe2;
+}
+.loading{
+    display: flex;
+    color: whitesmoke;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.loading span {
+    padding: 0 20px;
+    line-height: 100px;
+    background: #ff4754;
+    animation: bulge 2s infinite;
+}
+@keyframes bulge {
+    50%{
+        box-shadow: 0 20px #eee;
+        transform: translateY(-35px);
+    }
+}
